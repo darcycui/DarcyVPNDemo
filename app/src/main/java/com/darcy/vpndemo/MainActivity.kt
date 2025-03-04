@@ -99,7 +99,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun initView() {
         binding.apply {
-            tvInfo.text = "open vpn"
+            tvInfo.text = "open vpn" 
             openVPN.setOnClickListener {
                 val intentVPN = VpnService.prepare(context)
                 if (intentVPN != null) {
