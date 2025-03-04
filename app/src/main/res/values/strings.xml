@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VPNDemo</string>
+    <string name="open">openVPN</string>
+    <string name="close">closeVPN</string>
+    <string name="startService">StartService</string>
+    <string name="stopService">StopService</string>
+</resources>
